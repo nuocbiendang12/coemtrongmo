@@ -21,7 +21,7 @@ void printASquareMatrix(int** array, int n)
 		{
 			cout << array[i][j] << " ";
 		}
-		cout << endl;
+	
 	}
 }
 void freeASquareMatrix(int**& array,int n)
