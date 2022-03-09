@@ -30,7 +30,7 @@ void freeASquareMatrix(int**& array,int n)
 	{
 		delete array[i];
 	}
-	delete[]array;
+	
 }
 void main()
 {
@@ -38,6 +38,7 @@ void main()
 	cout << "Please input width,lenght of two-dimensional array\n";
 	cin >> n;
 	int** a = NULL;
+	cout<<"co em trong mo\n";
 	createASquareMatrix(a, n);
 	printASquareMatrix(a, n);
 	freeASquareMatrix(a, n);
